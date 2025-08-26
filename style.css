@@ -1,9 +1,66 @@
 body{
-    background-color: black;
+    background-image:url(2.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
 }
 h1{
     color: brown;
 }
 #p1{
     color: blue;
+}
+a:hover{
+    color: pink;
+    size: 1.1em;
+
+}
+a:active{
+    color: rgb(220, 227, 17);
+    size: 1.4em;
+}
+#hobbies li::before{
+    content:"😎😎";
+}
+#movies::after{
+    content:"🎬🎬";
+
+}
+#cricket::after{
+    content:"🏏🏏";
+
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.dropdown button{
+    color: blueviolet;
+    background-color: aqua;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown ::content{
+    background-color: antiquewhite;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-sizing: 2px 2px 5px ;
+}
+.f1{
+    border: 2pc;
 }
