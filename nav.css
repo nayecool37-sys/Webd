@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+    margin: 0px;
+}
+main{
+    text-align: center;
+    margin: 19px;
+}
+h1{
+    text-align: center;
+}
+.nav a{
+    text-align: center;
+    background-color: brown;
+   
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+    padding: 15px;
+    width: 335px;
+    
+}
+.nav ul{
+    list-style-type: none;
+    background-color: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.nav a:hover{
+    background-color: blue;
+}
+.nav li{
+    float: left;
+}

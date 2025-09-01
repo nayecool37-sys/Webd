@@ -1,0 +1,56 @@
+body{
+    background-color: cadetblue;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    font-size: 4cm;
+    text-align: center;
+    border-radius: 25px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: firebrick;
+}
+#box4{
+    background-color: greenyellow;
+}
+.boxx{
+    height:250px;
+    width: 250px;
+    font-size: 13em;
+    text-align: center;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    background-color: bisque;
+    transform: rotateZ(45deg);
+    margin: 50px;
+    
+}
+.boxx{
+    height:250px;
+    width: 250px;
+    font-size: 8em;
+    text-align: center;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    background-color: bisque;
+    transform: rotateZ(45deg);
+    margin: 50px;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+}
+@keyframes slideLeft {
+    from{transform: translateX(400%)}
+    
+}

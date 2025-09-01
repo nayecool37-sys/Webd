@@ -1,0 +1,24 @@
+#outer{
+    height: 800px;
+    width: 800px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+.row{
+    height: 100px;
+    width:800px;
+    margin: auto;
+}
+.one{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
