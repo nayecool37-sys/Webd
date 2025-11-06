@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>transition</title>
+        <style>
+            .container{
+                height: 600px;
+                width: 800px;
+                background-color: bisque;
+
+            }
+            .box{
+                height: 60px;
+                width: 80px;
+                background-color: saddlebrown;
+                 animation:nimation 3s ease-in-out 3s 1, ni2 3s ease-in-out 3s 1;
+                
+            }
+            @keyframes nimation {
+                
+                from{background-color: red;
+
+                }
+                to{
+                    transform: translateX(1000px);
+                    background-color: yellow;
+                }
+            }
+            @keyframes ni2 {
+                0%{
+                    transform:rotate(100deg) ;
+                }
+                20%{
+                    transform:rotate(200deg) ;
+                }
+                50%{
+                    transform:rotate(220deg) ;
+                }
+                80%{
+                    transform:rotate(300deg) ;
+                }
+                100%{
+                    transform:rotate(360deg) ;
+                }
+            
+                
+            }
+        </style>
+
+    </head>
+    <div class="container">
+        <div class="box translate">
+
+
+        </div>
+
+    </div>
+</html>
